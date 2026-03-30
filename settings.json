@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "KAZI AFK",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "KAZI afk24",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "LaggyLegends77.aternos.me",
+    "port": 34404,
     "version": "",
     "try-creative": false
   },
