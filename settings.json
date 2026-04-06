@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "happysmp-GTbh.aternos.me:22824",
+    "port": 22824,
     "version": "",
     "try-creative": false
   },
