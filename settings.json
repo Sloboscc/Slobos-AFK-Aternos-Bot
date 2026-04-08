@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "meserverpvp.aternos.me:40334",
+    "port": 40334,
     "version": "",
     "try-creative": false
   },
