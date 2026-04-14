@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "Ohlivvvv.aternos.me",
+    "port": 35182,
     "version": "",
     "try-creative": false
   },
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "FUCK U PRIYANSHU",
+        "HELLO GUYS IM GOING TO FUCK ANSHU",
+        "FUCK U MAZZ"
       ]
     },
     "chat-log": true,
@@ -41,14 +41,14 @@
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
-  "movement": {
+  "movement": true
     "enabled": true,
-    "circle-walk": {
+    "circle-walk": true
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
-    "look-around": {
+    "look-around": true
       "enabled": true,
       "interval": 5000
     },
