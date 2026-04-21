@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
+    "ip": "TeoBoxPvp.aternos.me",
     "port": 27586,
-    "version": "",
+    "version": 1.21.22,
     "try-creative": false
   },
   "position": {
