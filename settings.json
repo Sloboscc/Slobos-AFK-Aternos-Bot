@@ -1,14 +1,14 @@
 {
-  "name": "AFK Bot",
+  "name": "mrminecraft",
   "bot-account": {
     "username": "Slobot00",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "Theguysidk.aternos.me",
+    "port": 39738,
+    "version": "26.1.2",
     "try-creative": false
   },
   "position": {
@@ -22,7 +22,7 @@
       "enabled": true,
       "password": "chalol78"
     },
-    "anti-afk": {
+    "anti-afk": {true
       "enabled": true,
       "sneak": true
     },
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        yo
+      
+    
       ]
     },
     "chat-log": true,
