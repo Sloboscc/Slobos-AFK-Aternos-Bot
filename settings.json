@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "McPlayTogether.aternos.me",
+    "port": 48040,
     "version": "",
     "try-creative": false
   },
