@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "Klassenserver-nyx0.aternos.me",
+    "port": 53396,
     "version": "",
     "try-creative": false
   },
