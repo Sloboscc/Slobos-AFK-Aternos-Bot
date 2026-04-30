@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "Aashish_661.aternos.me",
+    "ip": "Aashish_661.aternos.me:13293",
     "port": 13293,
     "version": "",
     "try-creative": false
