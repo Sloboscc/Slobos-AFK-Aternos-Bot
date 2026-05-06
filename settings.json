@@ -5,9 +5,9 @@
     "password": "",
     "type": "offline"
   },
-  "server": {
+  "server": {Skypia09.aternos.me
     "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "port": 33820,
     "version": "",
     "try-creative": false
   },
