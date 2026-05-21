@@ -8,7 +8,7 @@
   "server": {
     "ip": "safoin_smp.aternos.me",
     "port": 54024,
-    "version": "",
+    "version": "1.21.10",
     "try-creative": false
   },
   "position": {
