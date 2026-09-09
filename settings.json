@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "Pufferfish_Lord-KZOW.aternos.me:23135",
+    "port": 23135,
     "version": "",
     "try-creative": false
   },
