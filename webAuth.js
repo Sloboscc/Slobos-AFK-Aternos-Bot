@@ -9,19 +9,35 @@ function safeEqual(left, right) {
   return crypto.timingSafeEqual(a, b);
 }
 
+function readCookie(header, name) {
+  const cookies = String(header || "").split(";");
+  for (const cookie of cookies) {
+    const [key, ...value] = cookie.trim().split("=");
+    if (key === name) return decodeURIComponent(value.join("="));
+  }
+  return "";
+}
+
 function createAuthMiddleware(token) {
   const expected = String(token ?? "");
   return function dashboardAuth(req, res, next) {
-    // Read-only monitoring remains available without configuration. All
-    // state-changing dashboard requests require an explicit token.
     if (!expected && ["GET", "HEAD", "OPTIONS"].includes(req.method)) return next();
 
+    // Allow the dashboard's own browser UI to authenticate after its first GET.
+    if (expected && ["GET", "HEAD", "OPTIONS"].includes(req.method)) {
+      res.setHeader("Set-Cookie", `dashboard_token=${encodeURIComponent(expected)}; Path=/; HttpOnly; SameSite=Strict`);
+      return next();
+    }
+
     const authorization = req.headers?.authorization || "";
-    const provided = authorization.startsWith("Bearer ")
+    const bearer = authorization.startsWith("Bearer ")
       ? authorization.slice(7).trim()
       : "";
+    const cookieToken = readCookie(req.headers?.cookie, "dashboard_token");
 
-    if (expected && safeEqual(provided, expected)) return next();
+    if (expected && (safeEqual(bearer, expected) || safeEqual(cookieToken, expected))) {
+      return next();
+    }
 
     res.status(401).json({ error: "Unauthorized" });
   };
