@@ -43,17 +43,31 @@ function start() {
   process.env.PORT = String(resolvePort(process.env));
 
   // index.js historically imports settings.json directly. Intercept only that
-  // project-local file so secrets can live in settings.local.json without
-  // changing the existing bot implementation in one risky rewrite.
+  // project-local file so secrets can live in settings.local.json without a
+  // risky full rewrite of the legacy bot implementation.
   const Module = require("module");
   const originalLoad = Module._load;
   const settingsPath = require.resolve("./settings.json");
   const config = loadConfig();
+  const { createAuthMiddleware } = require("./webAuth");
+  const dashboardToken = process.env.DASHBOARD_TOKEN || "";
 
   Module._load = function(request, parent, isMain) {
-    if (parent && require.resolve(request, { paths: [path.dirname(parent.filename)] }) === settingsPath) {
+    if (parent && request === "./settings.json" && parent.filename === path.join(__dirname, "index.js")) {
       return config;
     }
+
+    if (request === "express") {
+      const express = originalLoad.apply(this, arguments);
+      const wrappedExpress = function(...args) {
+        const app = express(...args);
+        app.use(createAuthMiddleware(dashboardToken));
+        return app;
+      };
+      Object.assign(wrappedExpress, express);
+      return wrappedExpress;
+    }
+
     return originalLoad.apply(this, arguments);
   };
 
