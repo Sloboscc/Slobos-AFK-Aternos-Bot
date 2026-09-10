@@ -2,3 +2,4 @@ node_modules/
 npm-debug.log*
 .env
 *.log
+settings.local.json

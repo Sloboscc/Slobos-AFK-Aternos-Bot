@@ -1,0 +1,10 @@
+{
+  "bot-account": {
+    "password": ""
+  },
+  "utils": {
+    "auto-auth": {
+      "password": ""
+    }
+  }
+}
