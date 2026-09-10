@@ -12,6 +12,10 @@ function safeEqual(left, right) {
 function createAuthMiddleware(token) {
   const expected = String(token ?? "");
   return function dashboardAuth(req, res, next) {
+    // Read-only monitoring remains available without configuration. All
+    // state-changing dashboard requests require an explicit token.
+    if (!expected && ["GET", "HEAD", "OPTIONS"].includes(req.method)) return next();
+
     const authorization = req.headers?.authorization || "";
     const provided = authorization.startsWith("Bearer ")
       ? authorization.slice(7).trim()
