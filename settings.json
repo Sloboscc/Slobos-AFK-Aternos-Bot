@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "season1SchoolSMP.aternos.me",
+    "port": 22009,
     "version": "",
     "try-creative": false
   },
