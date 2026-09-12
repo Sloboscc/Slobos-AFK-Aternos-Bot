@@ -1,14 +1,14 @@
 {
-  "name": "AFK Bot",
+  "name": "GeceBekçisi",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "GeceBekçisi",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "mineboxing.aternos.me",
+    "port":  61828,
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "Gece19791976"
     },
     "anti-afk": {
       "enabled": true,
@@ -32,13 +32,13 @@
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "thanks for play mineboxing!",
+        "Welcome!"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
+    "auto-reconnect-delay": 5000,
     "max-reconnect-delay": 120000
   },
   "movement": {
