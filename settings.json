@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "HASAAN_BISMA.aternos.me",
+    "port": 20170,
+    "version": "2.26",
     "try-creative": false
   },
   "position": {
