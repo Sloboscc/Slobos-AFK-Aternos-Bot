@@ -29,10 +29,11 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 150,
+      "repeat-delay": 120,
       "messages": [
         "I'm Hamzi",
         "I Am Running A Confidential Bussiness",
+        "nothing else",
       ]
     },
     "chat-log": true,
