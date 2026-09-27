@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "RAMU",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "RAMU",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "BoysSurvivalSMP.aternos.me",
+    "port": 21188,
     "version": "",
     "try-creative": false
   },
@@ -32,7 +32,7 @@
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
-        "Subscribe to Slobos!",
+        "JAIHIND",
         "I like to play Minecraft!"
       ]
     },
