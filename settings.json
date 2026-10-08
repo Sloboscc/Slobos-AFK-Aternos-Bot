@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "BluckyBot",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "BluckyMc.aternos.me",
+    "port": 26537,
     "version": "",
     "try-creative": false
   },
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "Uważaj na Moby Na spawnie",
+        "Dołącz na nasz server discord! https://discord.gg/ctmyfmR3W",
+        "Dla bezpieczeństwa buduj swoją baze daleko od spawna"
       ]
     },
     "chat-log": true,
@@ -42,10 +42,10 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": true
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 0,
       "speed": 3000
     },
     "look-around": {
@@ -74,7 +74,7 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "",
     "events": {
       "connect": true,
       "disconnect": true,
