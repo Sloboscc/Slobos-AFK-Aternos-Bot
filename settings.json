@@ -5,9 +5,9 @@
     "password": "",
     "type": "offline"
   },
-  "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+  "server": 
+    "ip": "Action-7j.aternos.me",
+    "port": 41051,
     "version": "",
     "try-creative": false
   },
