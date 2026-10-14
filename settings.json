@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "7bsmpBot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "7bsmpbot",
     "password": "",
-    "type": "offline"
+    "type": "online"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "7bsmp.YMPy.aternos.me",
+    "port": 21908,
     "version": "",
     "try-creative": false
   },
@@ -32,7 +32,7 @@
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
-        "Subscribe to Slobos!",
+        "I am in 7bsmp!",
         "I like to play Minecraft!"
       ]
     },
