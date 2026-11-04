@@ -1,3 +1,4 @@
+
 {
   "name": "AFK Bot",
   "bot-account": {
@@ -20,7 +21,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "CHANGE_THIS_PASSWORD"
     },
     "anti-afk": {
       "enabled": true,
@@ -40,22 +41,23 @@
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
+  },
   "movement": {
-  "enabled": false,
-  "circle-walk": {
     "enabled": false,
-    "radius": 4,
-    "speed": 3000
+    "circle-walk": {
+      "enabled": false,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": false,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": false,
+      "interval": 10000
+    }
   },
-  "look-around": {
-    "enabled": false,
-    "interval": 5000
-  },
-  "random-jump": {
-    "enabled": false,
-    "interval": 10000
-  }
-},
   "modules": {
     "avoidMobs": true,
     "combat": true,
@@ -82,5 +84,8 @@
   },
   "chat": {
     "respond": true
+  }
+}
+
   }
 }
