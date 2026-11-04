@@ -1,7 +1,7 @@
 {
   "name": "minecraft-afk-bot",
   "version": "2.2",
-  "description": "Robust AFK bot for Minecraft servers with infinite uptime.",
+  "description": "Robust AFK bot for Minecraft servers",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -12,7 +12,7 @@
   "dependencies": {
     "express": "^4.18.1",
     "minecraft-data": "^3.103.0",
-    "mineflayer": "^4.39.0",
+    "mineflayer": "github:PrismarineJS/mineflayer#master",
     "mineflayer-pathfinder": "^2.1.1"
   }
 }
