@@ -63,7 +63,7 @@
     "combat": false,
     "beds": false,
     "chat": false,
-    "console-commands": true
+    "console-commands": false
   },
   "combat": {
     "attack-mobs": false,
