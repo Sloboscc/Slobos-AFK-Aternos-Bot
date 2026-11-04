@@ -6,7 +6,7 @@ on:
 jobs:
   start-bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 800
 
     steps:
       - name: Download Bot Files
