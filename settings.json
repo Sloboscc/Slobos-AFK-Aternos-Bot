@@ -1,15 +1,15 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
-    "password": "",
+    "username": "ISLAM009",
+    "password": "ISLAM6767",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
-    "try-creative": false
+    "ip": "exastrue.aternos.me:28687",
+    "port": 28687,
+    "version": "1.21.1",
+    "try-creative": true
   },
   "position": {
     "enabled": true,
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "ISLAM6767"
     },
     "anti-afk": {
       "enabled": true,
