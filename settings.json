@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "coconutsmpp.mcsh.gg",
+    "port": 25565,
     "version": "",
     "try-creative": false
   },
