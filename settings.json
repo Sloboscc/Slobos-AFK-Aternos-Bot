@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "RiftBreaker.aternos.me",
+    "port": 12667,
+    "version": "1.21.4",
     "try-creative": false
   },
   "position": {
