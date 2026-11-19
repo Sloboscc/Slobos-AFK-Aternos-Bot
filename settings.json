@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "FASI BOT",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "FASI BOT",
     "password": "",
-    "type": "offline"
+    "type": "online"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "kelvorosmp.aternos.me",
+    "port": 58359,
     "version": "",
     "try-creative": false
   },
@@ -31,15 +31,13 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "I'm a Bot dont try to mess with me because the Owner controls me and his name is FasiOP"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 0,
+    "max-reconnect-delay": 0
   },
   "movement": {
     "enabled": true,
