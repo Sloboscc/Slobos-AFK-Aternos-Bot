@@ -1,14 +1,14 @@
 {
-  "name": "AFK Bot",
+  "name": "FasiOPBOT",
   "bot-account": {
-    "username": "Slobot00",
-    "password": "",
-    "type": "offline"
+    "username": "FasiOPBOT",
+    "password": "fasialimughal12345",
+    "type": "online"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "KelvoroSMP.aternos.me",
+    "port": 58359,
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
