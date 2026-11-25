@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "luveenbedwars.aternos.me",
+    "port":  59811,
     "version": "",
     "try-creative": false
   },
